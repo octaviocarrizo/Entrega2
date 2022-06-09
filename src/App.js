@@ -1,7 +1,7 @@
 
 import './App.css';
-import NavBar from './components/NavBar';
-
+import NavBar from './components/Lista/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
     <h1>Subastas.com</h1>
     <NavBar/>
+    <ItemListContainer Titulo= "Mensaje para el usuario (Bienvenido)"/>
     </div>
   );
 }
